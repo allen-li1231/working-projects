@@ -38,7 +38,7 @@ def to_timeseries(start_date, end_date, *dataframes):
         try:
             frame = frame.astype('float64')
             if frame.shape[0] != 0:
-                # datetime series is in index, strech datetime out of index:
+                # datetime series is in index, stretch datetime out of index:
                 frame = frame.reset_index()
         except:
             # if not:
