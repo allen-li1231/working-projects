@@ -1,5 +1,5 @@
 import os
-os.chdir(r'E:\working\Python\分类')
+# os.chdir(r'E:\working\Python\分类')
 from math import log
 import operator
 import treePlotter
