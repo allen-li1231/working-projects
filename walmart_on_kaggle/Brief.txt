@@ -1,0 +1,6 @@
+So, the topic is to predict weekly_sales(ws), we focus on discussing the relations with this factor.
+
+with store features:
+store-dept-ws
+store-date-ws
+store-IsHoliday-ws
